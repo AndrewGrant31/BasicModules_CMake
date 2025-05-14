@@ -1,0 +1,25 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\msvc-x64-debug",
+      "out\\install\\msvc-x64-debug",
+      "out\\build\\msvc-x64-release",
+      "out\\install\\msvc-x64-release",
+      "out\\build\\clang-x64-debug",
+      "out\\install\\clang-x64-debug",
+      "out\\build\\clang-x64-release",
+      "out\\install\\clang-x64-release"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\BasicModules_CMake",
+    "\\BasicModules_CMake\\Hello",
+    "\\BasicModules_CMake\\Hello\\HelloVariables",
+    "\\BasicModules_CMake\\Input",
+    "\\BasicModules_CMake\\Input\\Variables",
+    "\\BasicModules_CMake\\Run"
+  ],
+  "SelectedNode": "\\BasicModules_CMake\\CMakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}

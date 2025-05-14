@@ -1,0 +1,40 @@
+{
+	"modules" : 
+	{
+		"Input" : 
+		{
+			"bmi" : "C:/Projects/BasicModules_CMake/out/build/clang-x64-debug/BasicModules_CMake/Input/CMakeFiles/Input.dir/Input.pcm",
+			"is-private" : false
+		}
+	},
+	"references" : 
+	{
+		"Hidden" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "BasicModules_CMake/Input/Variables/CMakeFiles/Variables.dir/Hidden.pcm"
+		},
+		"Input" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "BasicModules_CMake/Input/CMakeFiles/Input.dir/Input.pcm"
+		},
+		"Variables" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "BasicModules_CMake/Input/Variables/CMakeFiles/Variables.dir/Variables.pcm"
+		}
+	},
+	"usages" : 
+	{
+		"Input" : 
+		[
+			"Hidden",
+			"Variables"
+		],
+		"Variables" : 
+		[
+			"Hidden"
+		]
+	}
+}

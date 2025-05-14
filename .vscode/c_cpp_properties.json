@@ -1,0 +1,48 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/*/*",
+                "${workspaceFolder}/*/*/*"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "cStandard": "c17",
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Program Files/LLVM/bin/clang++.exe",
+            "cppStandard": "c++23",
+            "compileCommands": [
+                "${workspaceFolder}/out/build/clang-x64-debug/compile_commands.json"
+            ],
+            "configurationProvider": "ms-vscode.cmake-tools"
+        },
+        {
+            "name": "Win32-Release",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/*/*",
+                "${workspaceFolder}/*/*/*"
+            ],
+            "defines": [
+                "_RELEASE",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "cStandard": "c17",
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Program Files/LLVM/bin/clang++.exe",
+            "cppStandard": "c++23",
+            "compileCommands": [
+                "${workspaceFolder}/out/build/clang-x64-release/compile_commands.json"
+            ]
+        }
+    ],
+    "version": 4
+}

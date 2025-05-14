@@ -1,0 +1,29 @@
+{
+    "C_Cpp.default.compilerPath": "C:/Program Files/LLVM/bin/clang++.exe",
+    "files.associations": {
+        "*.cxx": "cpp",
+        "*.cppm": "cpp",
+        "charconv": "cpp",
+        "exception": "cpp",
+        "format": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "locale": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "print": "cpp",
+        "stdexcept": "cpp",
+        "string": "cpp",
+        "system_error": "cpp",
+        "typeinfo": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xlocbuf": "cpp",
+        "xlocinfo": "cpp",
+        "xlocmes": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xloctime": "cpp",
+        "xstring": "cpp"
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "BasicModules_CMake\\Hello\\CMakeFiles\\Hello.dir\\Hello.cxx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "Hello",
+          "source-path": "C:/Projects/BasicModules_CMake/BasicModules_CMake/Hello/Hello.cxx"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "HelloVariables"
+        },
+        {
+          "logical-name": "Who"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

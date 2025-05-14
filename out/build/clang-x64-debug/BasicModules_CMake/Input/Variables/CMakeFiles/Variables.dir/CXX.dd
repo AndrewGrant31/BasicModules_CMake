@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build BasicModules_CMake/Input/Variables/CMakeFiles/Variables.dir/Hidden.cxx.obj | BasicModules_CMake/Input/Variables/CMakeFiles/Variables.dir/Hidden.pcm: dyndep
+  restat = 1
+
+build BasicModules_CMake/Input/Variables/CMakeFiles/Variables.dir/Variables.cxx.obj | BasicModules_CMake/Input/Variables/CMakeFiles/Variables.dir/Variables.pcm: dyndep | BasicModules_CMake/Input/Variables/CMakeFiles/Variables.dir/Hidden.pcm
+  restat = 1
+

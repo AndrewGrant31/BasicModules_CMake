@@ -1,0 +1,2 @@
+-x c++-module
+-fmodule-output=BasicModules_CMake/Input/Variables/CMakeFiles/Variables.dir/Hidden.pcm

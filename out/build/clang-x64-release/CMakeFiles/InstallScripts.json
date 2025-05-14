@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/cmake_install.cmake",
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/cmake_install.cmake",
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/Input/cmake_install.cmake",
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/Input/Variables/cmake_install.cmake",
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/Hello/cmake_install.cmake",
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/Hello/HelloVariables/cmake_install.cmake",
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/Run/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

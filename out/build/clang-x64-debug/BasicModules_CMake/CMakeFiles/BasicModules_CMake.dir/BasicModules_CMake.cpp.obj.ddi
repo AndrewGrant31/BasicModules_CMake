@@ -1,0 +1,14 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "BasicModules_CMake\\CMakeFiles\\BasicModules_CMake.dir\\BasicModules_CMake.cpp.obj",
+      "requires": [
+        {
+          "logical-name": "Run"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

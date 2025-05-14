@@ -1,0 +1,3 @@
+-x c++-module
+-fmodule-output=BasicModules_CMake/Hello/HelloVariables/CMakeFiles/HelloVariables.dir/Who.pcm
+-fmodule-file=HelloVariables=BasicModules_CMake/Hello/HelloVariables/CMakeFiles/HelloVariables.dir/HelloVariables.pcm

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "BasicModules_CMake/Input/Variables",
+		"source" : "BasicModules_CMake/Input/Variables"
+	}
+}

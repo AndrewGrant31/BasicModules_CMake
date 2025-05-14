@@ -1,0 +1,210 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.40"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "BasicModules_CMake",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						6
+					],
+					"jsonFile" : "directory-BasicModules_CMake-Release-477b468142a392764690.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.40"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "BasicModules_CMake",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "BasicModules_CMake/Input",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-BasicModules_CMake.Input-Release-faa11e663d4585be5a65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.40"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "BasicModules_CMake/Input",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "BasicModules_CMake/Input/Variables",
+					"jsonFile" : "directory-BasicModules_CMake.Input.Variables-Release-622e2f17121e1343bb1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.40"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "BasicModules_CMake/Input/Variables",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "BasicModules_CMake/Hello",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-BasicModules_CMake.Hello-Release-90d5d825660307a761ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.40"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "BasicModules_CMake/Hello",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "BasicModules_CMake/Hello/HelloVariables",
+					"jsonFile" : "directory-BasicModules_CMake.Hello.HelloVariables-Release-1204649b392adf70d244.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.40"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "BasicModules_CMake/Hello/HelloVariables",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "BasicModules_CMake/Run",
+					"jsonFile" : "directory-BasicModules_CMake.Run-Release-98d560bedc84a045bf04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.40"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "BasicModules_CMake/Run",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "BasicModules_CMake",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "BasicModules_CMake::@d242ecec2c8e81f85956",
+					"jsonFile" : "target-BasicModules_CMake-Release-2a22df96cc9e7517c074.json",
+					"name" : "BasicModules_CMake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Hello::@61230a8e7b248c039b5c",
+					"jsonFile" : "target-Hello-Release-b302c54664c5f5659ea1.json",
+					"name" : "Hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "HelloVariables::@e3eea762b4db7c7fa499",
+					"jsonFile" : "target-HelloVariables-Release-25dc6be6026ffb40aefd.json",
+					"name" : "HelloVariables",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Input::@7213699aa15a6ffbcf5d",
+					"jsonFile" : "target-Input-Release-f9ed26896a5f65a40235.json",
+					"name" : "Input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Run::@feb2ae88d30ca6fc70a5",
+					"jsonFile" : "target-Run-Release-31700dce7f65b710fd99.json",
+					"name" : "Run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Variables::@6eb644dea427e4f42da8",
+					"jsonFile" : "target-Variables-Release-16d32e626321a0ac6e62.json",
+					"name" : "Variables",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Projects/BasicModules_CMake/out/build/clang-x64-release",
+		"source" : "C:/Projects/BasicModules_CMake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

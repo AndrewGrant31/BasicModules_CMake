@@ -1,0 +1,92 @@
+{
+    "version": 6,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 30,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "description": "Default build Configuration",
+            "generator": "Ninja",
+            "hidden": true,
+            "installDir": "${sourceDir}/out/install/${presetName}",
+            "name": "default"
+        },
+        //clang compiler
+        {
+            "name": "clang_compiler",
+            "displayName": "CLANG Compiler",
+            "hidden": true,
+            "inherits": "default",
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_C_COMPILER": "clang.exe",
+                "CMAKE_CXX_COMPILER": "clang++.exe"
+            }
+        },
+        // clang-debug
+        {
+            "name": "clang-x64-debug",
+            "hidden": false,
+            "displayName": "CLANG X64 Debug",
+            "inherits": "clang_compiler",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        //clang-release
+        {
+            "name": "clang-x64-release",
+            "hidden": false,
+            "displayName": "CLANG X64 Release",
+            "inherits": "clang_compiler",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        //msvc compiler
+        {
+            "name": "msvc_compiler",
+            "displayName": "MSVC Compiler",
+            "hidden": true,
+            "inherits": "default",
+            "architecture": {
+                "value": "x64",
+                "strategy": "external"
+            },
+            "cacheVariables": {
+                "CMAKE_C_COMPILER": "cl.exe",
+                "CMAKE_CXX_COMPILER": "cl.exe"
+            }
+        },   
+        // msvc debug
+        {
+            "name": "msvc-x64-debug",
+            "hidden": false,
+            "displayName": "MSVC X64 Debug",
+            "inherits": "msvc_compiler",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        // msvc release
+        {
+            "name": "msvc-x64-release",
+            "hidden": false,
+            "displayName": "MSVC X64 Release",
+            "inherits": "msvc_compiler",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        }
+    ]
+}

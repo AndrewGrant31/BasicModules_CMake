@@ -1,0 +1,4 @@
+ninja_dyndep_version = 1.0
+build BasicModules_CMake/Run/CMakeFiles/Run.dir/Run.cxx.obj | BasicModules_CMake/Run/CMakeFiles/Run.dir/Run.pcm: dyndep | BasicModules_CMake/Input/CMakeFiles/Input.dir/Input.pcm BasicModules_CMake/Hello/CMakeFiles/Hello.dir/Hello.pcm
+  restat = 1
+

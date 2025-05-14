@@ -1,0 +1,39 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "MSVC",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake",
+	"dir-cur-src" : "C:/Projects/BasicModules_CMake/BasicModules_CMake",
+	"dir-top-bld" : "C:/Projects/BasicModules_CMake/out/build/clang-x64-release",
+	"dir-top-src" : "C:/Projects/BasicModules_CMake",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"BasicModules_CMake\\Input",
+		"C:\\Projects\\BasicModules_CMake\\BasicModules_CMake\\Hello",
+		"C:\\Projects\\BasicModules_CMake\\BasicModules_CMake\\Run"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/Input/CMakeFiles/Input.dir",
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/Hello/CMakeFiles/Hello.dir",
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/Run/CMakeFiles/Run.dir",
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/Input/Variables/CMakeFiles/Variables.dir",
+		"C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/Hello/HelloVariables/CMakeFiles/HelloVariables.dir"
+	],
+	"module-dir" : "C:/Projects/BasicModules_CMake/out/build/clang-x64-release/BasicModules_CMake/CMakeFiles/BasicModules_CMake.dir",
+	"sources" : 
+	{
+		"BasicModules_CMake/CMakeFiles/BasicModules_CMake.dir/BasicModules_CMake.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Projects/BasicModules_CMake/BasicModules_CMake/BasicModules_CMake.cpp"
+		}
+	}
+}

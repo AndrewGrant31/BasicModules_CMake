@@ -1,0 +1,21 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "BasicModules_CMake\\Input\\Variables\\CMakeFiles\\Variables.dir\\Variables.cxx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "Variables",
+          "source-path": "C:/Projects/BasicModules_CMake/BasicModules_CMake/Input/Variables/Variables.cxx"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "Hidden"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "BasicModules_CMake\\Input\\CMakeFiles\\Input.dir\\Input.cxx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "Input",
+          "source-path": "C:/Projects/BasicModules_CMake/BasicModules_CMake/Input/Input.cxx"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "Variables"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "BasicModules_CMake\\Hello\\HelloVariables\\CMakeFiles\\HelloVariables.dir\\HelloVariables.cxx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "HelloVariables",
+          "source-path": "C:/Projects/BasicModules_CMake/BasicModules_CMake/Hello/HelloVariables/HelloVariables.cxx"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

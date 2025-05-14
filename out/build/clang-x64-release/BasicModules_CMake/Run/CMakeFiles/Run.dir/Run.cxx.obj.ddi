@@ -1,0 +1,24 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "BasicModules_CMake\\Run\\CMakeFiles\\Run.dir\\Run.cxx.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "Run",
+          "source-path": "C:/Projects/BasicModules_CMake/BasicModules_CMake/Run/Run.cxx"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "Input"
+        },
+        {
+          "logical-name": "Hello"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

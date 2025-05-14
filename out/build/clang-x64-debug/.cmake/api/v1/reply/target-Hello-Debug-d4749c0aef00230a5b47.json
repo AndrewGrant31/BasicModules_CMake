@@ -1,0 +1,119 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "BasicModules_CMake/Hello/Hello.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"BasicModules_CMake/Hello/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O0 -std=gnu++23 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "23"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "HelloVariables::@e3eea762b4db7c7fa499"
+		}
+	],
+	"fileSets" : 
+	[
+		{
+			"baseDirectories" : 
+			[
+				"BasicModules_CMake/Hello"
+			],
+			"name" : "CXX_MODULES",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	],
+	"id" : "Hello::@61230a8e7b248c039b5c",
+	"name" : "Hello",
+	"nameOnDisk" : "Hello.lib",
+	"paths" : 
+	{
+		"build" : "BasicModules_CMake/Hello",
+		"source" : "BasicModules_CMake/Hello"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"fileSetIndex" : 0,
+			"path" : "BasicModules_CMake/Hello/Hello.cxx",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
