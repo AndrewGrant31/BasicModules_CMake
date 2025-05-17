@@ -18,7 +18,6 @@
             "installDir": "${sourceDir}/out/install/${presetName}",
             "name": "default"
         },
-        //clang compiler
         {
             "name": "clang_compiler",
             "displayName": "CLANG Compiler",
@@ -29,11 +28,10 @@
                 "strategy": "external"
             },
             "cacheVariables": {
-                "CMAKE_C_COMPILER": "clang.exe",
-                "CMAKE_CXX_COMPILER": "clang++.exe"
+                "CMAKE_C_COMPILER": "clang",
+                "CMAKE_CXX_COMPILER": "clang++"
             }
         },
-        // clang-debug
         {
             "name": "clang-x64-debug",
             "hidden": false,
@@ -43,7 +41,6 @@
                 "CMAKE_BUILD_TYPE": "Debug"
             }
         },
-        //clang-release
         {
             "name": "clang-x64-release",
             "hidden": false,
@@ -53,7 +50,6 @@
                 "CMAKE_BUILD_TYPE": "Release"
             }
         },
-        //msvc compiler
         {
             "name": "msvc_compiler",
             "displayName": "MSVC Compiler",
@@ -68,7 +64,6 @@
                 "CMAKE_CXX_COMPILER": "cl.exe"
             }
         },   
-        // msvc debug
         {
             "name": "msvc-x64-debug",
             "hidden": false,
@@ -78,7 +73,6 @@
                 "CMAKE_BUILD_TYPE": "Debug"
             }
         },
-        // msvc release
         {
             "name": "msvc-x64-release",
             "hidden": false,
