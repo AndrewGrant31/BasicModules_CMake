@@ -1,4 +1,0 @@
-ninja_dyndep_version = 1.0
-build BasicModules_CMake/Hello/CMakeFiles/Hello.dir/Hello.cxx.obj | BasicModules_CMake/Hello/CMakeFiles/Hello.dir/Hello.pcm: dyndep | BasicModules_CMake/Hello/HelloVariables/CMakeFiles/HelloVariables.dir/HelloVariables.pcm BasicModules_CMake/Hello/HelloVariables/CMakeFiles/HelloVariables.dir/Who.pcm
-  restat = 1
-
